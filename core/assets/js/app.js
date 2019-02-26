@@ -3278,6 +3278,7 @@ jQuery('<script src="/wp-content/plugins/lumise/core/assets/js/Trendy.js"></scri
 							// lumise.func.update_text_fx();
 
 							if (outline != undefined) {
+								a.set('strokeWidth', 0);
 								a.set('strokeWidth', 1);
 								a.set('stroke', outline);
 							} else {
@@ -3285,7 +3286,7 @@ jQuery('<script src="/wp-content/plugins/lumise/core/assets/js/Trendy.js"></scri
 							}
 
 							if (shadow != undefined) {
-
+								a.setShadow(null);
 								a.setShadow({
 								    color: shadow,
 								    blur: 0,
