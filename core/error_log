@@ -1,0 +1,12 @@
+[27-Dec-2018 04:48:11 UTC] PHP Fatal error:  Uncaught Error: Class 'lumise_connector' not found in /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php:45
+Stack trace:
+#0 /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php(409): lumise->init()
+#1 /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/index.php(5): require_once('/home/inksigns/...')
+#2 {main}
+  thrown in /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php on line 45
+[17-Feb-2019 14:23:18 UTC] PHP Fatal error:  Uncaught Error: Class 'lumise_connector' not found in /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php:45
+Stack trace:
+#0 /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php(409): lumise->init()
+#1 /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/index.php(5): require_once('/home/inksigns/...')
+#2 {main}
+  thrown in /home/inksigns/public_html/inksigns.com/wp-content/plugins/lumise/core/includes/main.php on line 45
